@@ -1,0 +1,62 @@
+{
+  "name": "beach-monitor-spain-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para monitorear playas de España en tiempo real",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "@mui/material": "^5.15.0",
+    "@mui/icons-material": "^5.15.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@types/googlemaps": "^3.43.3",
+    "axios": "^1.6.0",
+    "react-router-dom": "^6.8.0",
+    "@types/react-router-dom": "^5.3.3",
+    "recharts": "^2.8.0",
+    "socket.io-client": "^4.7.0",
+    "@types/socket.io-client": "^3.0.0",
+    "react-query": "^3.39.0",
+    "date-fns": "^2.30.0",
+    "react-toastify": "^9.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "eslint": "^8.36.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0"
+  }
+}
