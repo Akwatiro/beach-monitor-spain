@@ -53,6 +53,13 @@ Una aplicación web completa que proporciona información meteorológica y de co
 - Python 3.8+
 - Node.js 16+
 - npm o yarn
+- Git
+
+### **Clonar Repositorio**
+```bash
+git clone https://github.com/tu-usuario/beach-monitor-spain.git
+cd beach-monitor-spain
+```
 
 ### **1. Configurar Backend**
 ```bash
@@ -78,7 +85,16 @@ npm install
 npm start
 ```
 
-### **3. Acceder a la aplicación**
+### **3. Configurar Variables de Entorno**
+```bash
+# Copiar archivo de ejemplo
+cp .env.example .env
+
+# Editar con tus claves de API (opcional)
+# Sin claves, usa datos simulados
+```
+
+### **4. Acceder a la aplicación**
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000
 - **Documentación API**: http://localhost:8000/docs
@@ -183,3 +199,55 @@ GET /api/beaches/batch/weather?beach_ids=1,2,3  # Múltiples playas
 ---
 
 **¡Aplicación completamente funcional para monitorear playas españolas en tiempo real!** 🌊☀️
+
+## 🤝 Contribuir
+
+¡Las contribuciones son bienvenidas! Lee nuestra [Guía de Contribución](CONTRIBUTING.md) para empezar.
+
+### 🐛 **Reportar Issues**
+- [Reportar un bug](https://github.com/tu-usuario/beach-monitor-spain/issues/new?assignees=&labels=bug%2Cneeds-triage&template=bug_report.md)
+- [Solicitar feature](https://github.com/tu-usuario/beach-monitor-spain/issues/new?assignees=&labels=enhancement%2Cneeds-discussion&template=feature_request.md)
+
+### 🔧 **Desarrollo**
+```bash
+# Fork del repositorio
+git clone https://github.com/tu-usuario/beach-monitor-spain.git
+
+# Crear rama para feature
+git checkout -b feature/mi-nueva-caracteristica
+
+# Hacer cambios y commit
+git commit -m "feat: descripción del cambio"
+
+# Crear pull request
+```
+
+## 📊 Estado del Proyecto
+
+![GitHub Stars](https://img.shields.io/github/stars/tu-usuario/beach-monitor-spain?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/tu-usuario/beach-monitor-spain?style=social)
+![GitHub Issues](https://img.shields.io/github/issues/tu-usuario/beach-monitor-spain)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/tu-usuario/beach-monitor-spain)
+
+### **CI/CD Status**
+![Tests](https://github.com/tu-usuario/beach-monitor-spain/workflows/CI%2FCD%20Pipeline/badge.svg)
+![CodeQL](https://github.com/tu-usuario/beach-monitor-spain/workflows/CodeQL%20Analysis/badge.svg)
+![Security](https://img.shields.io/github/workflow/status/tu-usuario/beach-monitor-spain/Security%20Scan?label=security)
+
+## 📜 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+
+## 🙏 Agradecimientos
+
+- **AEMET** - Por proporcionar datos meteorológicos oficiales de España
+- **OpenWeatherMap** - Por datos meteorológicos internacionales
+- **Material-UI** - Por componentes React de alta calidad
+- **FastAPI** - Por el framework web moderno de Python
+- **React Community** - Por las librerías y herramientas
+
+## 📞 Contacto
+
+- **GitHub**: [@tu-usuario](https://github.com/tu-usuario)
+- **Issues**: [Crear issue](https://github.com/tu-usuario/beach-monitor-spain/issues)
+- **Discussions**: [Participar](https://github.com/tu-usuario/beach-monitor-spain/discussions)
