@@ -14,7 +14,9 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/provincia/:provinceId" element={<ProvincePage />} />
+          <Route path="/province/:provinceId" element={<ProvincePage />} />
           <Route path="/playa/:beachId" element={<BeachDetailPage />} />
+          <Route path="/beach/:beachId" element={<BeachDetailPage />} />
         </Routes>
       </Container>
     </div>

@@ -20,17 +20,18 @@ export interface Beach {
   id: number;
   name: string;
   province: string;
+  municipality: string;
   coordinates: {
     lat: number;
     lng: number;
   };
-  temperature_water: number;
-  temperature_air: number;
-  wave_height: number;
-  wind_speed: number;
-  flag_status: 'green' | 'yellow' | 'red';
-  occupancy: number;
-  quality_rating: number;
+  description: string;
+  services: string[];
+  blue_flag: boolean;
+  length_km: number;
+  width_m: number;
+  sand_type: string;
+  aemet_station: string;
 }
 
 export interface WeatherData {
